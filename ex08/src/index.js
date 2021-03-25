@@ -17,7 +17,7 @@ for (let i = 0; i < users.length; i++) {
 return output;
  
 }
-/*console.log(getUsers());*/
+console.log(getUsers());
    
 
 function findUser(lastName, gender) {
@@ -28,7 +28,7 @@ function findUser(lastName, gender) {
         return iFindUser;
 
     }catch (error) {
-        return "Cannot read property \"firstName\" of undefined";
+        return "Cannot read property \'firstName\' of undefined";
         
     }
 }
@@ -39,5 +39,7 @@ function findUser(lastName, gender) {
 getUsers();
 
 console.log(findUser("Doe", "male"));
+console.log(findUser("Doe", "female"));
+console.log(findUser("Jackson", "male"));
 
 module.exports = findUser;

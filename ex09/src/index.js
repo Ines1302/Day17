@@ -28,7 +28,7 @@ function findUserById(id) {
 
 
     } catch (error) {
-        return "Cannot read propety \"id\"";
+        return "Cannot read propety \'id\'";
     }
 }
 
@@ -42,5 +42,6 @@ console.log(findUserById(1));
 console.log(findUserById(2));
 console.log(findUserById(3));
 console.log(findUserById(4));
+console.log(findUserById(5));
 
 module.exports = findUserById;
