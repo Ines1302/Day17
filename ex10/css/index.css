@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+
+}
+
+#left {
+    float: left;
+    width: 35%;
+    height: 100vh;
+    
+    background-color: black;
+    align-content: center;
+}
+
+#right {
+    float:inline-end;
+    height: 100vh;
+    background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+    background-size:contain ;
+    color: white;
+}
+
+#showcase-content{
+    text-align: center;
+    
+    padding-top: 300px;
+    margin-left: 400px;
+}
+
+.showcase-text{
+    font-weight: normal;
+    font-size: 40px;
+    padding-left: 160px;
+    
+}
+
+.primary-btn{
+    width: 320px;
+    padding: auto;
+    background-color: rgb(55, 55, 255);
+    color: white;
+    height: 35px;
+}
+.secondary-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(99, 99, 99);
+    font-size: 15px;
+    padding: 10px 105px 10px 105px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+form label{
+    display: block;
+    text-align: left;
+    padding-left: 80px;
+    font-size: 14px;
+}
+
+.text-input{
+    background-color: black;
+    border: solid 0.5px grey;
+    width: 318px;
+    height: 28px;
+   
+    padding-left: -54px;
+    display: inline-block;
+    
+
+}
+
+
+#links{
+    text-align: center;
+    text-decoration: none;
+}
+#links a{
+    text-decoration: none;
+}
+strong{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#main-footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+#main-footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+form{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+hr{
+    width: 310px;
+    padding: auto;
+    
+}
+
+.logo{
+    align-content: center;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: center
+}
+input {
+  display: block;
+  
+}
+
+
+
